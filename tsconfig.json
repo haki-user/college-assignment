@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": false,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "target": "ES6", // or ESNext (for modern features)
+    "module": "commonjs", // ESNext is the best choice for modern ES Modules
+    "moduleResolution": "node", // Node module resolution strategy
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Your source files directory
+    "strict": false, // You can set this to true for stricter type checking
+    "esModuleInterop": true, // Helps to deal with CommonJS modules like `require`
+    "skipLibCheck": true // To skip library type checks (optional)
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"], // Includes all TypeScript files inside the src folder
+  "exclude": ["node_modules"] // Excludes node_modules
 }
