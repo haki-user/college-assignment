@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectDB = async () => {
+const connectDB = async (connString: string) => {
   try {
     await mongoose.connect("mongodb://localhost/ecommerce");
     console.log("MongoDB connected");
