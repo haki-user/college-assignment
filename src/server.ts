@@ -1,11 +1,11 @@
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
-import connectDB from './config/db';
-import setupSwagger from './utils/swagger';
-import authRoutes from './routes/authRoutes';
-import productRoutes from './routes/productRoutes';
-import cartRoutes from './routes/cartRoutes';
-import orderRoutes from './routes/orderRoutes';
+import connectDB from './config/db.js';
+import setupSwagger from './utils/swagger.js';
+import authRoutes from './routes/authRoutes.js';
+import productRoutes from './routes/productRoutes.js';
+import cartRoutes from './routes/cartRoutes.js';
+import orderRoutes from './routes/orderRoutes.js';
 
 dotenv.config();
 

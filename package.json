@@ -2,17 +2,8 @@
   "name": "ecommerce-backend",
   "version": "1.0.0",
   "description": "Backend for e-commerce platform with user authentication, product management, cart, and order processing.",
-  "type": "common",
-  "files": [
-    "dist/**/*",
-    "src/**/*",
-    "package.json",
-    "README.md"
-  ],
-  "main": "dist/server.js",
-  "exports": {
-    ".": "./dist/server.js"
-  },
+  "main": "./dist/server.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/server.js",
     "build": "tsc --noEmit && tsc",

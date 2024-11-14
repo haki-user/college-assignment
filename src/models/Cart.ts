@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document, Types } from 'mongoose';
-import { IProduct } from './Product';
+import { IProduct } from './Product.js';
 
 export interface ICartItem {
   productId: Types.ObjectId | IProduct; // Allows `productId` to be either an ObjectId or a populated IProduct
