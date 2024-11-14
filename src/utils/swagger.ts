@@ -10,7 +10,6 @@ const options = {
       version: '1.0.0',
       description: 'E-commerce platform backend API'
     },
-    servers: [{ url: 'http://localhost:3000' }]
   },
   apis: ['./src/routes/*.ts']
 };
