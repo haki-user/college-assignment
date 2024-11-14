@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Backend for e-commerce platform with user authentication, product management, cart, and order processing.",
   "main": "./dist/server.js",
+  "export": {
+    ".": "./dist/server.js"
+  },
   "type": "module",
   "scripts": {
     "start": "node dist/server.js",

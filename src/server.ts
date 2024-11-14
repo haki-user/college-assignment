@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import setupSwagger from './utils/swagger.js';
